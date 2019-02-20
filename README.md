@@ -70,6 +70,14 @@ Inserts if column not exists or update column value
 Remove column
 
     db.customer.update({first_name:"John"},{$unset:{dob:1}});
+    
+Remove single row data
+
+    db.customer.remove({id});
+    
+Remove all rows of data / clear collection data
+
+    db.customer.remove({});
 
 Update if exist, insert if not (upsert:true)
 
