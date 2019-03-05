@@ -1,5 +1,8 @@
 # MongoDB
 
+"MongoDB (from "humongous") is a scalable, high-performance, open source NoSQL database."
+"Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment."
+
 Install mongodb .exe file
 
 setup mongodb
